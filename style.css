@@ -1,0 +1,101 @@
+body {
+  background-image: url("./bg.png");
+  margin: 0px;
+  padding: 0px;
+  height: 110vh;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  font-family: "Roboto Condensed", "sans-serif";
+  position: sticky;
+  top: 0;
+}
+
+.logoBox {
+  display: inline-block;
+  width: 150px;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logoBox:hover {
+  color: salmon;
+  transition: 0.5s;
+}
+
+.navbox {
+  width: 600px;
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+.navbox > a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.navbox > a:hover {
+  color: salmon;
+}
+
+#homie {
+  color: salmon;
+}
+
+.heading {
+  color: salmon;
+  font-size: 60px;
+  position: relative;
+  top: 60px;
+  width: 500px;
+  left: 70px;
+}
+
+.heading + h3 {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  width: 500px;
+  left: 80px;
+}
+
+.heading + h3 + p {
+  color: white;
+  position: relative;
+  width: 400px;
+  left: 80px;
+  word-spacing: 4px;
+  font-style: italic;
+}
+
+.btn{
+     border:2px solid salmon;
+    width: 150px;
+ 
+    padding: 15px;
+    border-radius: 2px;
+    background-color: salmon;
+    color: white;
+    position: relative;
+    left: 70px;
+    font-weight: 400px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+footer{
+    color: rgb(196, 193, 193);
+    position: fixed;
+    bottom: 0;
+}
